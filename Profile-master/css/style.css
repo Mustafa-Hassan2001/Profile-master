@@ -1,0 +1,209 @@
+/*
+* @Author: Yash
+* @Date:   2017-06-22 10:45:00
+* @Last Modified by:   Yash
+* @Last Modified time: 2019-11-30 18:43:16
+*/
+
+.container{
+  font-size: 62.5%;
+}
+.vertical-center{
+  margin-top: 10%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#introduction{
+  font-size: 6em;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  font-size: 4.5em;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+#motto{
+  font-size: 3em;
+}
+
+#about-me{
+  font-size: 4em;
+}
+
+#resume{
+  font-size: 4em;
+}
+
+.social-links{
+  padding-top: 7%;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .social-links{
+    padding-top: 0%;
+  }
+  #introduction{
+    font-size: 7em;
+  }
+}
+
+.social-links-container{
+  margin-left: -2%;
+}
+
+@media (max-width: 992px){
+  .social-links-container{
+    margin-left: 0%;
+  }
+}
+.social-links li{
+  display: inline-block;
+  width: 9em;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.social-links svg{
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 100%;
+  padding: 25%;
+}
+
+.social-links path, .social-links ellipse, .social-links circle{
+  fill: #FFF;
+}
+
+.social-links .github{
+  background-color:#181717;
+}
+
+.social-links .twitter{
+  background-color: rgb(85, 172, 238);
+}
+
+.social-links .facebook{
+  background-color: rgb(59, 89, 152);
+}
+
+.social-links .linkedin{
+  background-color: rgb(0, 119, 181);
+}
+
+.social-links .quora{
+  background-color: rgb(185, 43, 39);
+}
+
+.social-links .googleplus{
+  background-color: rgb(220, 78, 65);
+}
+
+.social-links .blog{
+  background-color: rgb(0,0,0);
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 4vw;
+  }
+  .vertical-center{
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .profile{
+    margin: 0 auto;
+    width: 50%;
+  }
+  .res-content{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  #introduction{
+    font-size: 8vw;
+  }
+  #about-me{
+    font-size: 4vw;
+  }
+  #resume{
+    font-size: 4vw;
+  }
+  .social-links{
+    padding-left:2%;
+    padding-right:4%;
+  }
+  .social-links li{
+    display: inline-block;
+    width: 10.5vw;
+    height: 50%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 5.3vw;
+  }
+  .vertical-center{
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .profile{
+    margin: 0 auto;
+    width: 50%;
+  }
+  .res-content{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 8%;
+  }
+  #introduction{
+    font-size: 8vw;
+  }
+  #about-me{
+    font-size: 5.3vw;
+  }
+  #resume{
+    font-size: 5.3vw;
+  }
+  .social-links{
+    padding-left:2%;
+    padding-right:4%;
+  }
+  .social-links li{
+    display: inline-block;
+    width: 12vw;
+    height: 50%;
+    border-radius: 50%;
+  }
+}
